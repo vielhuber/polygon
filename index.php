@@ -1,4 +1,5 @@
 <?php
+// helper function to determine whether a point is inside or outside a polygon (inspired by Jordan https://de.wikipedia.org/wiki/Punkt-in-Polygon-Test_nach_Jordan)
 function pointInPolygon($point, $polygon)
 {
     
